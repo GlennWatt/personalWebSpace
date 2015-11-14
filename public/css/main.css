@@ -1,0 +1,256 @@
+/* 
+    Document   : main
+    Created on : Oct 5, 2015, 7:44:53 PM
+    Author     : glenn
+    Description: make it look bawlin
+*/
+
+
+/*
+
+610000 -- Dark
+87311F -- Medium Dark
+AC6842 -- Medium
+D3A368 -- Medium Light
+FBDF8E -- Light
+
+*/
+
+
+
+
+body{
+    background:#f5f5cc ;
+    color: #000000;
+    font-family: arial;
+    font-size: medium;
+}
+
+#body {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-style: none;
+    border-radius: 10px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    display: block;
+    width: 770px;
+    min-height:600px;
+    
+    background:#FBDF8E;
+}
+
+#d1{ 
+    background-color: #610000;
+    color: #000000;
+}
+#d2{ 
+    background: #87311F;
+    color: #000000;
+}
+#d3{ 
+    background: #AC6842;
+    color: #000000;
+}
+#d4{ 
+    background: #D3A368;
+    color: #000000;
+}
+#d5{ 
+    background: #FBDF8E;
+    color: #000000;
+}
+
+#colorChange
+{
+    background: #FFFFFF;
+    color: #000000;
+}
+
+#colorChange a
+{
+    color:#FF0000;
+}
+
+div.sysMsg{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    border-color: #610000;
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 3px;
+    
+    width: 728px;
+    /*height: 0px;*/
+    background-color: #8a8a8a;
+}
+
+div.sysMsgHeader{
+    margin: 0px auto ;
+    
+    border: none;
+        
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+    color: #CCCC00;
+    text-align: left;
+    font-weight: bolder;
+}
+
+div.sysMsgBody {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+        
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+    width: 688px;
+    display: block;
+    color: #FFFF00;
+    text-align: left;
+}
+
+
+
+a.mainMenu{
+    margin-left: 0px; 
+    margin-right: 0px;
+    
+    border-color: #610000;
+    border-style: solid;
+    border-width: 2px;
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+    color: #610000;
+    text-decoration: none;
+    background: #D3A368;
+}
+
+a.mainMenu:hover{
+    color: #610000;
+    text-decoration: none;
+    background: #AC6842;
+}
+
+#header{
+    display: block;
+    color: white;
+    text-align: right;
+}
+
+#footer{
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 800px;
+    text-align: center;
+    color: #000000;
+    height: 70px;
+    padding-bottom: 10px;
+}
+
+div.breadCrumbs{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+    color: #000000;
+}
+
+div.breadCrumbs a, div.breadCrumbs a.visited{
+    color: #610000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a, a.visited {
+    color: #610000;
+}
+
+table.formatHack{
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    border: none;
+}
+
+table.formatHack tr, table.formatHack td {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    border-style: dotted;
+    
+}
+
+.contrast1 {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+        
+    border-radius: 5px;
+    
+    background: #D3A368; 
+}
+.contrast2 {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    
+    border-radius: 5px;
+    
+    background: #AC6842; 
+}
+div#resultsDiv
+{
+    display: none;
+}
